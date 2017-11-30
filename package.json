@@ -1,0 +1,33 @@
+{
+  "name": "huets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha src/**/*.test.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfalfamale/huets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alfalfamale/huets/issues"
+  },
+  "homepage": "https://github.com/Alfalfamale/huets#readme",
+  "devDependencies": {
+    "mocha": "latest",
+    "mocha-typescript": "latest",
+    "chai": "latest",
+    "typescript": "latest",
+    "pre-commit": "latest"
+  }
+}
